@@ -1,0 +1,12 @@
+$TTL     60000
+@        IN      SOA       dnsxyz.xyz.org. admin.dnsxyz.xyz.org. (
+                                2011110301  ;serial
+                                30          ;refresh
+                                15          ;retry
+                                60000       ;expire
+                                0           ;negative cache ttl
+                                )
+@        IN      NS        dnsxyz.xyz.org.
+dnsxyz   IN      A         200.0.0.32
+www2     IN      A         200.0.0.52
+

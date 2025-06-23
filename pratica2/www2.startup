@@ -1,0 +1,3 @@
+ifconfig eth0 200.0.0.42/24 up
+echo "nameserver 200.0.0.32" > /etc/resolv.conf
+echo "search xyz.net" >> /etc/resolv.conf

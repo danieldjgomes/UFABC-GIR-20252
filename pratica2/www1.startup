@@ -1,0 +1,9 @@
+ifconfig eth0 100.0.0.41/24 up
+ip route add default via 100.0.0.1 dev eth0
+systemctl start apache2
+echo "nameserver 100.0.0.31" > /etc/resolv.conf
+echo "search abc.org" >> /etc/resolv.conf
+
+systemctl start sshd
+adduser admabc
+echo 'admabc:123abc' | chpasswd

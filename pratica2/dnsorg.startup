@@ -1,0 +1,3 @@
+ifconfig eth0 195.0.0.21/24 up
+ip route add default via 195.0.0.100 dev eth0
+/etc/init.d/bind start

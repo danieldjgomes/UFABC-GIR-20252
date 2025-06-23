@@ -1,0 +1,14 @@
+; reverse lookup database
+$TTL    1
+@               IN      SOA     10.0.0.195.in-addr.arpa.    nobody.nowhere. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@                            IN      NS      10.0.0.195.in-addr.arpa.
+10.0.0.195.in-addr.arpa.     IN      A       195.0.0.10
+5                                    PTR     .
+21                                   PTR     dnsorg.org.
+

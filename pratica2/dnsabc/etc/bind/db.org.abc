@@ -1,0 +1,19 @@
+$TTL     60000
+@           IN      SOA       dnsabc.abc.org. admin.dnsabc.abc.org. (
+                                    2011110301  ;serial
+                                    30          ;refresh
+                                    15          ;retry
+                                    60000       ;expire
+                                    0           ;negative cache ttl
+                                    )
+;Name servers
+@                    IN      NS        dnsabc.abc.org.
+
+; A records
+dnsabc               IN      A         100.0.0.31
+abc.org.             IN      A         100.0.0.41
+www1                 IN      A         100.0.0.41
+
+; CNAME record
+www.abc.org.         IN     CNAME      www1.abc.org.
+

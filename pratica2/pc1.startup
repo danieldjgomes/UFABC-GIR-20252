@@ -1,0 +1,4 @@
+ifconfig eth0 100.0.0.51/24 up
+ip route add default via 100.0.0.1 dev eth0
+echo "nameserver 100.0.0.31" > /etc/resolv.conf
+echo "search abc.org" >> /etc/resolv.conf

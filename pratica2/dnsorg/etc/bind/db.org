@@ -1,0 +1,18 @@
+$TTL 60000
+@                IN       SOA         dnsorg.org. admin.dnsorg.org. (
+                                         2011110301  ;serial
+                                         30          ;refresh
+                                         15          ;retry
+                                         60000       ;expire
+                                         0           ;negative cache ttl
+                                         )
+
+@                 IN       NS          dnsorg.org.
+dnsorg            IN       A           195.0.0.21
+
+abc               IN       NS          dnsabc.abc.org.
+dnsabc.abc        IN       A           100.0.0.31
+
+xyz               IN       NS          dnsxyz.xyz.org.
+dnsxyz.xyz        IN       A           200.0.0.32
+
