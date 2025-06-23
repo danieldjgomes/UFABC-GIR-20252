@@ -1,3 +1,9 @@
 ifconfig eth0 200.0.0.42/24 up
+ip route add default via 200.0.0.2 dev eth0
+systemctl start apache2
 echo "nameserver 200.0.0.32" > /etc/resolv.conf
-echo "search xyz.net" >> /etc/resolv.conf
+echo "search xyz.org" >> /etc/resolv.conf
+
+systemctl start sshd
+adduser admxyz
+echo 'admxyz:123xyz' | chpasswd

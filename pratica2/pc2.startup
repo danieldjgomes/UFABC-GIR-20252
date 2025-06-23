@@ -1,3 +1,4 @@
-ifconfig eth0 200.0.0.52/24 down
-echo "nameserver 200.0.0.42" > /etc/resolv.conf
+ifconfig eth0 200.0.0.52/24 up
+ip route add default via 200.0.0.2 dev eth0
+echo "nameserver 200.0.0.32" > /etc/resolv.conf
 echo "search xyz.org" >> /etc/resolv.conf
