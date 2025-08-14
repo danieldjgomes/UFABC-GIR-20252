@@ -2,6 +2,6 @@ ip address add 10.0.0.1/24 dev eth0
 ip address add 10.0.3.1/24 dev eth1
 ip address add 100.0.0.1/30 dev eth2
 ip address add 110.0.0.1/30 dev eth3
-ip link set eth2 down
-ip link set eth3 down
+ip link set eth2 up
+ip link set eth3 up
 systemctl start frr
