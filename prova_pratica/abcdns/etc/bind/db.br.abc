@@ -1,0 +1,12 @@
+$TTL    60000
+@               IN      SOA     abcdns.abc.br.    root.abcdns.abc.br. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS      abcdns.abc.br.
+abcdns          IN      A       100.2.2.3
+www		        IN	    A	    100.2.2.2
+data		    IN	    A	    100.2.1.2

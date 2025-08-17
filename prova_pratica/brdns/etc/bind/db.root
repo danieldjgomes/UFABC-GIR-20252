@@ -1,5 +1,2 @@
-@               IN      NS      ROOT-SERVER.
-ROOT-SERVER.	IN	    A	    1.1.0.2
-
-abc.		    IN  	NS	    dnsabc.abc.
-dnsabc.abc.	    IN  	A	    100.2.2.3
+.                   IN  NS    ROOT-SERVER.
+ROOT-SERVER.        IN  A     1.1.0.2

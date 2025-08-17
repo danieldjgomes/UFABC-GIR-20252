@@ -1,14 +1,13 @@
 $TTL    60000
-@               IN      SOA     dnsabc.abc.    root.dnsabc.abc. (
+@               IN      SOA     dnsbr.br.    root.dnsbr.br. (
                         2006031201 ; serial
                         28800 ; refresh
                         14400 ; retry
                         3600000 ; expire
                         0 ; negative cache ttl
                         )
-@               IN      NS      dnsabc.abc.
-dnsabc          IN      A       100.2.2.3
+@               IN      NS      dnsbr.br.
+dnsbr           IN      A       30.3.3.2
 
-www             IN      A       100.2.2.2
-
-data            IN      A       100.2.1.2
+abc             IN      NS      abcdns.br
+abcdns          IN      A       100.2.2.3
