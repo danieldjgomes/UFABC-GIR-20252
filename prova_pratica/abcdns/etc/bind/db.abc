@@ -10,3 +10,5 @@ $TTL    60000
 dnsabc          IN      A       100.2.1.2
 
 www             IN      A       100.2.1.3
+
+data            IN      A       100.2.1.10
