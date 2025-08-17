@@ -7,8 +7,8 @@ $TTL    60000
                         0 ; negative cache ttl
                         )
 @               IN      NS      dnsabc.abc.
-dnsabc          IN      A       100.2.1.2
+dnsabc          IN      A       100.2.2.3
 
-www             IN      A       100.2.1.3
+www             IN      A       100.2.2.2
 
-data            IN      A       100.2.1.10
+data            IN      A       100.2.1.2
