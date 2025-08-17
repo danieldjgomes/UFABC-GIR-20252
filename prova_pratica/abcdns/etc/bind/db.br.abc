@@ -9,4 +9,4 @@ $TTL    60000
 @               IN      NS      abcdns.abc.br.
 abcdns          IN      A       100.2.2.3
 www		        IN	    A	    100.2.2.2
-data		    IN	    A	    100.2.1.2
+data		    IN	    A	    100.2.1.4
