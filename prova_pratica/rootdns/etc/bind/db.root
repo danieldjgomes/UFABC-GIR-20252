@@ -10,8 +10,5 @@ $TTL   60000
 @               IN      NS      ROOT-SERVER.
 ROOT-SERVER.	IN	A	    1.1.0.2
 
-it.		IN  	NS	    dnsit.it.
-dnsit.it.	IN  	A	    20.2.1.2
-
-br.		IN  	NS	    dnsbr.br.
-dnsbr.br.	IN  	A	    30.3.3.2
+br.		        IN  	NS	    dnsbr.br.
+dnsbr.br.	    IN  	A	    30.3.3.2
